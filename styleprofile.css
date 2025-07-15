@@ -1,0 +1,110 @@
+/* Reset dan dasar */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1E5631; /* Hijau NU */
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 60%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+header h1 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+/* Navigasi */
+nav {
+  background-color: #14532d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #04B17A;
+}
+
+/* Main content */
+main.container {
+  padding: 30px 20px;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1E5631;
+}
+
+/* Profil list */
+.profil-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.profil-list li {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #04B17A;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  gap: 15px;
+}
+
+.foto-profil {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #1E5631, #04B17A);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+  box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
+}

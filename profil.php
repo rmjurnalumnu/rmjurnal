@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Pengelola</title>
+  <link rel="stylesheet" href="stylelisjurnal.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+       <img src="logo.jpg" alt="Logo Jurnal" class="logo">
+      <h1>Rumah Jurnal Universitas Ma'arif Nahdlatul Ulama</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="profil.php">Profil</a></li>
+        <li><a href="lisjurnal.php">List Jurnal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Pengelola Rumah Jurnal UMNU</h2>
+      <ul class="profil-list">
+  <li>
+    <strong>Rektor UMNU Kebumen  </strong> – Penanggung Jawab
+  </li>
+  <li>
+    <strong>Wakil Rektor I UMNU Kebumen  </strong> – Dewan Penasihat I
+  </li>
+  <li>
+    <strong>Ketu LPPM UMNU kebumen  </strong> – Dewan Penasihat II 
+  </li>
+  <li>
+    <strong>Ari Susanto, SIP</strong> – Ketua
+  </li>
+  <li>
+    <strong>Lutfi Ajis, S.Kom</strong> – Sekretaris
+  </li>
+  <li>
+    <strong>Ashifatul Lutfiah,A.M.d.Ak  </strong> – Bendahara
+  </li>
+  <li>
+    <strong>Rissa Filyang, M.Pd.  </strong> – Koordinator Jurnal Kridatama Sains dan Teknologi
+  </li>
+  <li>
+    <strong>Taufik Hidayat M.Pd.  </strong> – Koordinator Jurnal Abdibaraya: Jurnal Pengabdian Masyarakt
+  </li>
+  <li>
+    <strong>Muchlas Abror,S.Pd, M.A.  </strong> – Koordinator Jurnal RUANG KATA: Journal of Language and Literatur Studies
+  </li>
+  <li>
+    <strong>Zulfa Nabila, M.Pd.  </strong> – Koordinator Jurnal English Education and Literature Journal (E-Jou)
+  </li>
+  <li>
+    <strong>Dr. Erick Burhaein, M.Pd., AIFO.  </strong> – Koordinator Jurnal JUMORA: Jurnal Moderasi Olahraga
+  </li>
+  <li>
+    <strong>Risdianto Hermawan, M.Pd.  </strong> – Koordinator Jurnal STIMULUS: Jurnal Pendidikan Anak Usia Dini
+  </li>
+  <li>
+    <strong>Akhmad Fadjeri, S.Pd, M.Kom  </strong> – Koordinator Jurnal JURISTIK (Jurnal Riset Teknologi Informasi dan Komputer)
+  </li>
+  <li>
+    <strong>Afrie Nardiansyah, M.T.  </strong> – Koordinator Jurnal Teknik Sipil dan Lingkungan (TEKSLING)
+  </li>
+  <li>
+    <strong>Aulia Rahmawati, M.P.  </strong> – Koordinator Jurnal Agroteknologi (Agronu)
+  </li>
+  <li>
+    <strong>Efrilia Tri Wahyu Utami, M.Pt.  </strong> – Koordinator Jurnal Sains Peternakan Nusantara (JSPN)
+  </li>
+</ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rumah Jurnal UMNU</p>
+  </footer>
+</body>
+</html>

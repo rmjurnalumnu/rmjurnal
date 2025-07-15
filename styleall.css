@@ -1,0 +1,185 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tampilan umum */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #004d40; /* Disamakan */
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  width: 65%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 31px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Navigasi */
+nav {
+  background-color: #00695c; /* Disamakan */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #004d40; /* Hover disamakan */
+  transform: scale(1.1);
+}
+
+/* Banner Area */
+.banner-area {
+  background-image: url("logo.jpg"); /* Ganti sesuai nama file kamu */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content */
+main.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #00695c;
+  padding-bottom: 10px;
+  color: #004d40;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+main p strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #00695c;
+}
+
+main a {
+  color: #00897b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: #004d40;
+}
+
+/* Download button */
+.btn-download {
+  display: inline-block;
+  background-color: #00695c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #004d40, #004d40); /* Disamakan */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid #00695c; /* Disamakan */
+}
+
+footer p {
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .banner-area {
+    height: 250px;
+  }
+
+  main.container {
+    margin: 20px;
+    padding: 0 15px;
+  }
+
+  footer {
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+}
